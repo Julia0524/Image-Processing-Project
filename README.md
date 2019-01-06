@@ -3,7 +3,6 @@ This is our course project of Image Processing: Pose Estimation from 2D RGB Imag
 PoseEstimation Network is a convolutional neural network estimating 3D hand pose from a single 2D RGB image. 
 
 ## Environment
-- Ubuntu 16.04.2 (xenial)
 - Tensorflow 1.3.0 GPU build with CUDA 8.0.44 and CUDNN 5.1
 - Python 3.5.2
 - tensorflow==1.3.0
@@ -15,7 +14,7 @@ PoseEstimation Network is a convolutional neural network estimating 3D hand pose
 These are the datasets used in training, testing and evaluation.
 
 ### Rendered Hand Pose Dataset (RHD)
-- Download the dataset [RHD dataset v. 1.1](https://lmb.informatik.uni-freiburg.de/resources/datasets/RenderedHandposeDataset.en.html)
+- Download the dataset [RHD dataset v. 1.1](https://lmb.informatik.uni-freiburg.de/data/RenderedHandpose/RHD_v1-1.zip)
 - Set the variable 'path_to_db' to where the dataset is located on your machine
 - Optionally modify 'set' variable to training or evaluation
 - Run
